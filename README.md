@@ -164,6 +164,6 @@ cd ai-service
 
 ---
 
-## License
+## Live Demo:
 
-MIT
+https://predictive-analysis-dashboard-i5ce-4acptx22j-kaydeva.vercel.app/analytics

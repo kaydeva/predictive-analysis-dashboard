@@ -1,0 +1,8 @@
+{
+  "name": "predictive-maintenance-system",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  }
+}

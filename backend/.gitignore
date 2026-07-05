@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Cache
+*.log
+
+# AI models
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Docker
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db

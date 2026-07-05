@@ -147,23 +147,8 @@ cd ai-service
 - **AI Concurrency:** Gunicorn with 4 Uvicorn workers
 - **Database:** Indexed columns, pagination, range queries
 
----
 
-## Tech Stack
-
-| Component   | Technology                          |
-|-------------|-------------------------------------|
-| Frontend    | React 18, Vite 5, TailwindCSS 3     |
-| Animation   | Framer Motion 10, Recharts 2       |
-| State/Data  | React Query 5, Axios               |
-| Backend     | Node.js, Express 4                  |
-| Database    | Supabase (PostgreSQL)              |
-| AI Service  | Python 3.11, FastAPI, scikit-learn |
-| Email       | Nodemailer + SendGrid              |
-| Deployment  | Vercel, Railway                     |
-
----
 
 ## Live Demo:
 
-https://predictive-analysis-dashboard-i5ce-4acptx22j-kaydeva.vercel.app/analytics
+https://predictive-analysis-dashboard-i5ce.vercel.app/

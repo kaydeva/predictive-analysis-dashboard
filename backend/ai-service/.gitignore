@@ -1,0 +1,30 @@
+# Environment variables (NEVER commit real secrets)
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Trained AI model binaries (large files — stored in Railway/cloud, not git)
+*.pkl
+*.h5
+*.pt
+*.onnx
+model.pkl
+scaler.pkl
+iforest.pkl
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

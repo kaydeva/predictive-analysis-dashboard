@@ -12,17 +12,25 @@ venv/
 .env
 .env.*
 
-# Cache
+# Logs
 *.log
+logs/
 
-# AI models
+# AI models (do NOT commit trained model binaries)
 *.pkl
 *.h5
 *.pt
 *.onnx
+ai-service/*.pkl
+ai-service/*.h5
+ai-service/*.pt
+ai-service/*.onnx
 
 # Docker
 *.pid
+
+# Node.js
+node_modules/
 
 # OS files
 .DS_Store
